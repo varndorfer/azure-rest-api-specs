@@ -680,6 +680,12 @@
           },
           "x-nullable": true,
           "x-ms-identifiers": []
+        },
+        "provisioningState": {
+          "description": "One of null, \"Succeeded\", \"Provisioning\", \"Failed\". While not approved, it's null.",
+          "type": "string",
+          "x-nullable": true,
+          "readOnly": true
         }
       },
       "x-ms-client-name": "RegistryProperties",
