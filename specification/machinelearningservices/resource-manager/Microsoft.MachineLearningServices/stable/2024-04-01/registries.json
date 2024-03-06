@@ -314,7 +314,7 @@
           "200": {
             "description": "Success",
             "schema": {
-              "$ref": "#/definitions/RegistryTrackedResource",
+              "$ref": "#/definitions/RegistryTrackedResource"
             }
           },
           "201": {
